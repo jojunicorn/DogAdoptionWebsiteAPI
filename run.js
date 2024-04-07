@@ -19,7 +19,7 @@ if (!fs.existsSync('./package.json')) {
 // Start the server
 console.log('Starting the server...');
 try {
-    execSync('node app.js', { stdio: 'inherit' });
+    execSync('node donationAPI.js', { stdio: 'inherit' });
 } catch (error) {
     console.error('Error starting the server:', error);
     process.exit(1);
