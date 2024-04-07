@@ -18,7 +18,7 @@ const db = mysql.createConnection({
     host: 'db5015641848.hosting-data.io',
     user: 'dbu3329694',
     password: 'Jonemaka6',
-    database: 'AdoptionWebside'
+    database: 'dbs12770912'
 });
 
 // Connect to the database
