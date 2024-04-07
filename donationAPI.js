@@ -15,11 +15,10 @@ app.use(bodyParser.json());
 
 // MySQL database connection configuration
 const db = mysql.createConnection({
-    host: '127.0.0.1',
-    user: 'root',
-    password: 'secret123',
-    database: 'developmentdb',
-    connectTimeout: 60000
+    host: 'db5015641848.hosting-data.io',
+    user: 'dbu3329694',
+    password: 'Jonemaka6',
+    database: 'AdoptionWebside'
 });
 
 // Connect to the database
